@@ -1,0 +1,641 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: white;
+    list-style-type: none;
+}
+.bg{
+    background: url(/images/Rectangle.png) no-repeat;
+    background-size: cover;
+    width: 1910px;
+    height: 975px;
+}
+.line{
+    position: absolute;
+    border: 1px solid #A1A1A1;
+    color: black;
+    width: 1920px;
+    top: 12vh;
+    opacity: 20%;
+}
+.sp{
+    position: absolute;
+    top: 4vh;
+    display: flex;
+    justify-content: center;
+    padding-left: 1000px;
+    font-size: 17pt;
+    font-family: 'Montserrat', sans-serif;
+}
+.Main{
+    position: absolute;
+    left: 60vh;
+}
+.Main:hover{
+    transition: all 0.1s ease-in-out;
+    border-bottom: white 2px solid;
+}
+.Proects{
+    position: absolute;
+    left: 74vh;
+}
+.Proects:hover{
+    transition: all 0.1s ease-in-out;
+    border-bottom: white 2px solid;
+}
+.Services{
+    position: absolute;
+    left: 98.4vh;
+}
+.Services:hover{
+    transition: all 0.1s ease-in-out;
+    border-bottom: white 2px solid;
+}
+.News{
+    position: absolute;
+    left: 113vh;
+}
+.News:hover{
+    transition: all 0.1s ease-in-out;
+    border-bottom: white 2px solid;
+}
+.Contacts{
+    position: absolute;
+    left: 130vh;
+}
+.Contacts:hover{
+    transition: all 0.1s ease-in-out;
+    border-bottom: white 2px solid;
+}
+.middle-text{
+    position: absolute;
+    top: 35vh;
+    left: 65vh;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 55px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+.text-middle{
+    font-size: 35pt;
+}
+.button-middle-text{
+    font-family: 'Montserrat', sans-serif;
+    background: #4985FF;
+    border: none;
+    padding: 1.4vh;
+    margin: 4vh;
+    width: 220px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 14pt;
+    box-shadow: 0 1px 10px 1px rgba(0,0,0,0.3);
+}
+.text-wrapper{
+    position: absolute;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30pt;
+    text-align: center;
+    left: 65vh;
+    top: 120vh;
+}
+.text-wrapper-down{
+    position: absolute;
+    color: grey;
+    font-size: 12pt;
+    font-family: 'Montserrat', sans-serif;
+    top: 135vh;
+    left: 67vh;
+    text-align: center;
+}
+.project{
+    position: absolute;
+    top: 155vh;
+    left: 35vh;
+}
+.sites{
+    position: absolute;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16pt;
+    top: 156vh;
+    left: 45vh;
+}
+.sites-text-down{
+    position: absolute;
+    color: grey;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12pt;
+    top: 160vh;
+    left: 45vh;
+}
+.project1{
+    position: absolute;
+    top: 155vh;
+    left: 80vh;
+}
+.sites1{
+    position: absolute;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16pt;
+    top: 156vh;
+    left: 90vh;
+}
+.sites-text-down1{
+    position: absolute;
+    color: grey;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12pt;
+    top: 160vh;
+    left: 90vh;
+}
+.project2{
+    position: absolute;
+    top: 155vh;
+    left: 125vh;
+}
+.sites2{
+    position: absolute;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16pt;
+    top: 156vh;
+    left: 135vh;
+}
+.sites-text-down2{
+    position: absolute;
+    color: grey;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12pt;
+    top: 160vh;
+    left: 135vh;
+}
+.button-wrapper{
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    background: #4985FF;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 60px;
+    cursor: pointer;
+    top: 175vh;
+    left: 90vh;
+    font-size: 14pt;
+    box-shadow: 0 1px 10px 1px rgba(0,0,0,0.3);
+}
+.wrapper-paper{
+    position: absolute;
+    width: 1920px;
+    height: 797px;
+    background: #F6F6F8;
+    top: 200vh;
+}
+.h1-wrapper-middle-text{
+    position: absolute;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-size: 35pt;
+    top: 220vh;
+    left: 40vh;
+}
+.p-wrapper-middle-text{
+    position: absolute;
+    color: grey;
+    font-family: 'Montserrat', sans-serif;
+    top: 237vh;
+    left: 40vh;
+    font-size: 14pt;
+}
+.a-wrapper-middle-text{
+position: absolute;
+left: 40vh;
+top: 260vh;
+font-family: Montserrat;
+font-weight: 500;
+font-size: 16px;
+text-decoration-line: underline;
+color: #4985FF;
+}
+.img-wrapper-middle-text{
+    position: absolute;
+    top: 215vh;
+    left: 120vh;
+}
+.line-rectangle{
+    position: absolute;
+    border: 1px #E0E0E0 solid;
+    width: 1300px;
+    top: 270vh;
+    left: 40vh;
+}
+.web-wrapper-middle-text{
+    position: absolute;
+    top: 275vh;
+    left: 50vh;
+}
+.web-text-middle{
+    position: absolute;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20pt;
+    top: 275vh;
+    left: 55vh;
+}
+.web-text-middle-down{
+    position: absolute;
+    color: grey;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10pt;
+    top: 278vh;
+    left: 50vh;
+}
+
+.web-wrapper-middle-text1{
+    position: absolute;
+    top: 275vh;
+    left: 75vh;
+}
+.web-text-middle1{
+    position: absolute;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20pt;
+    top: 275vh;
+    left: 80vh;
+}
+.web-text-middle-down1{
+    position: absolute;
+    color: grey;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10pt;
+    top: 278vh;
+    left: 75vh;
+}
+
+
+.web-wrapper-middle-text2{
+    position: absolute;
+    top: 275vh;
+    left: 95vh;
+}
+.web-text-middle2{
+    position: absolute;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20pt;
+    top: 275vh;
+    left: 100vh;
+}
+.web-text-middle-down2{
+    position: absolute;
+    color: grey;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10pt;
+    top: 278vh;
+    left: 95vh;
+}
+
+
+
+.web-wrapper-middle-text3{
+    position: absolute;
+    top: 275vh;
+    left: 115vh;
+}
+.web-text-middle3{
+    position: absolute;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20pt;
+    top: 275vh;
+    left: 120vh;
+}
+.web-text-middle-down3{
+    position: absolute;
+    color: grey;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10pt;
+    top: 278vh;
+    left: 115vh;
+}
+
+
+.web-wrapper-middle-text4{
+    position: absolute;
+    top: 275vh;
+    left: 135vh;
+}
+.web-text-middle4{
+    position: absolute;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20pt;
+    top: 275vh;
+    left: 140vh;
+}
+.web-text-middle-down4{
+    position: absolute;
+    color: grey;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10pt;
+    top: 278vh;
+    left: 135vh;
+}
+.bg-wrapper-bottom{
+    position: absolute;
+    background: linear-gradient(90deg, #504DC2 20.44%, #5F12D0 80.91%), #C4C4C4;
+    width: 1920px;
+    height: 490px;
+    top: 290vh;
+}
+.jobs{
+    position: absolute;
+    color: white;
+    font-family: 'Montseratt', sans-serif;
+    top: 300vh;
+    left: 40vh;
+    font-size: 30pt;
+}
+.jobs-button{
+    position: absolute;
+    border: none;
+    border-radius: 50px;
+    top: 300vh;
+    left: 130vh;
+    background-color: #4985FF;
+    padding: 10px 60px;
+    font-size: 15pt;
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+    cursor: pointer;
+}
+.rectangle3{
+    position: absolute;
+    top: 320vh;
+    left: 44vh;
+}
+.rectangle4{
+    position: absolute;
+    top: 320vh;
+    left: 83vh;
+}
+.rectangle5{
+    position: absolute;
+    top: 320vh;
+    left: 122vh;
+}
+.unboxing{
+    position: absolute;
+    top: 355vh;
+    left: 44vh;
+    font-family: 'Montserrat',sans-serif;
+    color: black;
+    font-weight: 600;
+}
+.lorem{
+    position: absolute;
+    font-size: 14pt;
+    color: grey;
+    font-family: 'Montserrat', sans-serif;
+    top: 360vh;
+    left: 44vh;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 25px;
+}
+.unboxing1{
+    position: absolute;
+    top: 355vh;
+    left: 84vh;
+    font-family: 'Montserrat',sans-serif;
+    color: black;
+    font-weight: 600;
+}
+.lorem1{
+    position: absolute;
+    font-size: 14pt;
+    color: grey;
+    font-family: 'Montserrat', sans-serif;
+    top: 360vh;
+    left: 84vh;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 25px;
+}
+.unboxing2{
+    position: absolute;
+    top: 355vh;
+    left: 123vh;
+    font-family: 'Montserrat',sans-serif;
+    color: black;
+    font-weight: 600;
+}
+.lorem2{
+    position: absolute;
+    font-size: 14pt;
+    color: grey;
+    font-family: 'Montserrat', sans-serif;
+    top: 360vh;
+    left: 123vh;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 25px;
+}
+.podrobnee{
+    position: absolute;
+    left: 44vh;
+    top: 380vh;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration-line: underline;
+    color: #4985FF;
+}
+.podrobnee1{
+    position: absolute;
+    left: 84vh;
+    top: 380vh;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration-line: underline;
+    color: #4985FF;
+}
+.podrobnee2{
+    position: absolute;
+    left: 124vh;
+    top: 380vh;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration-line: underline;
+    color: #4985FF;
+}
+.line{
+    position: absolute;
+    color: grey;
+    width: 1200px;
+    top: 390vh;
+    left: 40vh;
+}
+.our-projects{
+    position: absolute;
+    font-family: Montserrat;
+    font-size: 35pt;
+    top: 400vh;
+    left: 85vh;
+    color: black;
+    width: 600;
+}
+.our-projects-lorem{
+    position: absolute;
+    font-family: Montserrat;
+    color: grey;
+    font-size: 12pt;
+    top: 410vh;
+    left: 68vh;
+    line-height: 1.5rem;
+}
+.programm1{
+    position: absolute;
+    top: 430vh;
+    left: 40vh;
+}
+.programm2{
+    position: absolute;
+    top: 430vh;
+    left: 70vh;
+}
+.programm3{
+    position: absolute;
+    top: 430vh;
+    left: 100vh;
+}
+.programm4{
+    position: absolute;
+    top: 430vh;
+    left: 130vh;
+}
+.our-projects-button{
+    position: absolute;
+    border: none;
+    border-radius: 50px;
+    top: 480vh;
+    left: 88vh;
+    background-color: #4985FF;
+    padding: 10px 60px;
+    font-size: 15pt;
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+    cursor: pointer;
+}
+.video-bg{
+    position: absolute;
+    top: 500vh;
+    width: 1920px;
+    height: 570px;
+}
+.video-about{
+    position: absolute;
+    color: white;
+    font-size: 40pt;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    top: 510vh;
+    left: 68vh;
+}
+.video-about-bottom{
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 13pt;
+    top: 520vh;
+    left: 84.5vh;
+}
+.video-bg-bk{
+    position: absolute;
+    width: 970px;
+    height: 430px;
+    left: 520px;
+    top: 540vh;
+}
+.video-button{
+    position: absolute;
+    top: 555vh;
+    left: 86vh;
+    cursor: pointer;
+}
+.line-video{
+    position: absolute;
+    border: 1px solid #A1A1A1;
+    color: black;
+    width: 1110px;
+    left: 47vh;
+    top: 600vh;
+    opacity: 20%;
+}
+.subscribe{
+    position: absolute;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 15pt;
+    top: 610vh;
+    left: 82vh;
+}
+.subscribe-bottom{
+    position: absolute;
+    top: 615vh;
+    color: grey;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12pt;
+    left: 75vh;
+}
+.your-email{
+    position: absolute;
+    top: 620vh;
+    left: 80vh;
+    width: 300px;
+    color: grey;
+    padding: 14px 10px;
+    background: #FFFFFF;
+    border: 1px solid #F2F2F2;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+    border-radius: 30px;
+}
+.button-subscribe{
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    width: 190px;
+    height: 45px;
+    left: 108vh;
+    top: 620vh;
+    background: #4985FF;
+    box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+    border-radius: 0px 30px 30px 0px;
+    border: none;
+    cursor: pointer;
+    font-size: 13pt;
+}
+.button-bottom-text{
+    position: absolute;
+    color: grey;
+    font-size: 13pt;
+    top: 629vh;
+    font-family: 'Montserrat', sans-serif;
+    left: 76vh;
+}
+.final-rectangle{
+    position: absolute;
+width: 1920px;
+height: 413px;
+left: 7vh;
+top: 650vh;
+
+}
